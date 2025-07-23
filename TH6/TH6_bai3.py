@@ -46,7 +46,8 @@ class BankAccount :
 def main ( ) : 
    n = int ( input ( " Nhập số Account muốn thêm : ")) 
    danhSach = []
-   for i in range ( n ) : 
+   for i in range ( n ) :
+       print ( " Nhập thông tin tài khoản thứ " , ( i + 1 )) 
        acc = input ( " Nhập số tài khoản ") 
        ten_acc = input( " Nhập tên chủ tài khoản : ") 
        sodu = input ( " Nhập số dư : ")
